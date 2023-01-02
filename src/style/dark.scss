@@ -1,0 +1,30 @@
+.app.dark {
+  background-color: rgb(37, 35, 38);
+  color: white;
+  .navItem span {
+    color: white;
+  }
+  .navIcon {
+    color: white;
+  }
+  .table {
+    background-color: rgb(37, 35, 38);
+
+    .tableCell {
+      color: white;
+    }
+  }
+  .productTable > div {
+    background-color: rgb(37, 35, 38);
+  }
+}
+.sidebar span {
+  color: rgb(175, 172, 172);
+}
+
+.profileDetails h1 {
+  color: rgb(168, 166, 166);
+}
+.detailItem span {
+  color: rgb(164, 160, 160);
+}

@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+}
+.title {
+  font-size: 2rem;
+}
+.homeContainer {
+  /* background-color: rgb(224, 224, 224); */
+  flex: 6;
+}
+.chartsContainer {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 2em;
+  padding: 2em;
+}

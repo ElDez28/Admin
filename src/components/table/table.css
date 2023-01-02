@@ -1,0 +1,38 @@
+.productTable {
+  margin: 0 2em;
+}
+.padding {
+  padding: 2em;
+}
+.tableContainer {
+  width: 100%;
+}
+.table {
+  border: 1px solid rgb(211, 207, 207);
+}
+.productImg {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.cellWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.pending {
+  background-color: rgba(218, 165, 32, 0.168);
+  color: rgba(210, 161, 36, 0.908);
+}
+.delivered {
+  background-color: rgba(0, 128, 0, 0.134);
+  color: rgb(51, 200, 51);
+}
+.status {
+  text-align: center;
+
+  border-radius: 5px;
+  padding: 0.5em 0;
+  font-weight: 700;
+}

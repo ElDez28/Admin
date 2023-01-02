@@ -1,0 +1,53 @@
+.single {
+  display: flex;
+  width: 100%;
+}
+.singleContainer {
+  flex: 6;
+}
+.topContainer {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.topLeft {
+  flex: 1;
+  position: relative;
+  box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  padding: 2em;
+}
+.topRight {
+  flex: 2;
+}
+.item {
+  display: flex;
+  gap: 2em;
+}
+.item img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.title {
+  margin-bottom: 1em;
+  color: rgb(200, 196, 196);
+}
+.transactionTitle {
+  margin-left: 1.3em;
+  color: rgb(200, 196, 196);
+  margin-bottom: 0.5em;
+}
+.editButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(31, 2, 31);
+  background-color: rgb(192, 132, 192);
+  border: none;
+}
+.itemTitle {
+  color: rgb(63, 63, 63);
+}

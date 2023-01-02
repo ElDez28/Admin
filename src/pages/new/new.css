@@ -1,0 +1,74 @@
+.new {
+  display: flex;
+  width: 100%;
+}
+.newContainer {
+  flex: 6;
+}
+.topNew {
+  box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  padding: 2em;
+  margin: 2em;
+}
+.bottomNew {
+  margin: 2em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: -4px -1px 22px 1px rgba(0, 0, 0, 0.04);
+}
+
+.leftNew {
+  flex: 1;
+  text-align: center;
+}
+.leftNew input {
+  display: none;
+}
+.leftNew img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rightNew {
+  flex: 2;
+}
+.topNew {
+  color: gray;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+.formInput input {
+  outline: none;
+  padding: 0.5em;
+}
+.inputForm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.sendButton {
+  padding: 0.8em 1em;
+  margin-top: 1.2em;
+  background-color: teal;
+  color: white;
+  width: 100%;
+  border: none;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40%;
+}

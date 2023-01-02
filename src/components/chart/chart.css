@@ -1,0 +1,18 @@
+.chartContainer {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+
+  box-shadow: 0px 1px 5px 9px rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: 0px 1px 5px 9px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0px 1px 5px 9px rgba(0, 0, 0, 0.01);
+  padding: 2rem;
+  border-radius: 5px;
+}
+.chartContainerTwo {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,74 @@
+.cellImg {
+  object-fit: cover;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+.cellWithImg {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cellWithStatus {
+  padding: 0.2em 1em;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.active {
+  background-color: rgba(0, 128, 0, 0.074);
+}
+
+.passive {
+  background-color: rgba(255, 0, 0, 0.039);
+}
+.viewButton {
+  color: green;
+  text-align: center;
+  background-color: transparent;
+  border: 0.2px solid gray;
+  border-radius: 5px;
+  padding: 0.3em 1em;
+
+  cursor: pointer;
+}
+
+.deleteButton {
+  border-radius: 5px;
+  padding: 0.3em 1em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2px solid gray;
+}
+.cellAction {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.deleteButton {
+  color: rgb(149, 9, 9);
+
+  border-radius: 5px;
+}
+.dark {
+  color: gray;
+}
+.linkToNewUser {
+  background-color: green;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.linkToNewUser a {
+  color: white;
+  text-decoration: none;
+}

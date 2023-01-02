@@ -1,0 +1,74 @@
+.widgetContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  gap: 2em;
+}
+
+.widgetItem {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 1em;
+
+  border-radius: 5px;
+}
+.widgetLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2em;
+}
+.widgetRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.percentage {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.widgetTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(187, 185, 185);
+}
+.widgetLink {
+  font-size: 1rem;
+  border-bottom: 0.5px solid gray;
+  cursor: pointer;
+}
+.widgetCounter {
+  font-size: 1.6rem;
+}
+
+.positive {
+  color: green;
+}
+.negative {
+  color: red;
+}
+.widgetIcon {
+  font-size: 2rem !important;
+  align-self: flex-end;
+}
+.one {
+  color: rgb(182, 82, 82);
+}
+.two {
+  color: rgba(235, 108, 11, 0.832);
+}
+.three {
+  color: rgb(22, 187, 108);
+}
+
+.four {
+  color: rgb(52, 133, 209);
+}
